@@ -58,10 +58,10 @@
 			<span slot="title">Game Mode</span>
 			<span slot="desc">The game mode determines how often the word refreshes</span>
 		</Setting>
-		<div class="links">
+		<!-- <div class="links">
 			<a href="https://github.com/MikhaD/wordle" target="_blank">Leave a ⭐</a>
 			<a href="https://github.com/MikhaD/wordle/issues" target="_blank">Report a Bug</a>
-		</div>
+		</div> -->
 		<Tips index={tip} />
 	</div>
 	<div class="footer">

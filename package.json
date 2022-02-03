@@ -1,6 +1,6 @@
 {
   "name": "wordle",
-  "description": "A remake of the popular game Wordle with additional modes and features.",
+  "description": "A remake of the popular game Wordle hourly mode.",
   "version": "1.1.1",
   "private": "true",
   "scripts": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikhaD/wordle.git"
+    "url": "git+https://github.com/davut/wordle.git"
   },
   "keywords": [],
-  "author": "MikhaD",
+  "author": "davut",
   "bugs": {
     "url": "https://github.com/MikhaD/wordle/issues"
   },
