@@ -1,5 +1,5 @@
 const words = {
-  words: ["event", "staff", "media", "align", "other", "board", "email", ""],
+  words: ["event", "staff", "media", "align", "other", "board", "email"],
   valid: [
     "cigar",
     "rebut",
