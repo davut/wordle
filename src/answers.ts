@@ -1,5 +1,6 @@
 const words = {
-  words: [
+  words: ["event", "staff", "media", "align", "other", "board", "email", ""],
+  valid: [
     "cigar",
     "rebut",
     "sissy",
@@ -2315,8 +2316,6 @@ const words = {
     "artsy",
     "rural",
     "shave",
-  ],
-  valid: [
     "aahed",
     "aalii",
     "aargh",
