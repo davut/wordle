@@ -1,5 +1,7 @@
 const words = {
   words: [
+    "serve",
+    "kebap",
     "event",
     "pride",
     "staff",
@@ -17,7 +19,6 @@ const words = {
     "video",
     "image",
     "build",
-    "social",
     "needs",
     "voice",
     "power",
@@ -36,7 +37,6 @@ const words = {
     "movie",
     "great",
     "ramen",
-    "fries",
     "pizza",
     "candy",
     "snack",
@@ -45,6 +45,8 @@ const words = {
     "salad",
     "smile",
     "habit",
+    "spoon",
+    "sport",
   ],
   valid: [
     "cigar",
