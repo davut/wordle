@@ -65,12 +65,6 @@
 			/>
 		</GameIcon>
 	</div> -->
-	<!-- {#if tutorial}
-		<div transition:scale class="prompt" on:click={() => dispatch("closeTutPopUp")}>
-			Tap WORDLE BC to change game mode
-			<span class="ok">OK</span>
-		</div>
-	{/if}
 </header>
 
 <style lang="scss">
