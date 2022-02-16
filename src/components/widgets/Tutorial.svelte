@@ -8,10 +8,12 @@
 <h3>how to play</h3>
 <div>Guess the <strong>WORDLE</strong> in {ROWS} tries.</div>
 <div>Each guess must be a valid {COLS} letter word. Hit the enter button to submit.</div>
+
 <div>
 	After each guess, the color of the tiles will change to show how close your guess was to the
 	word.
 </div>
+<div>This game was created by Bellevue College StudentEngagement, please check  <a target="_blank" href="https://www.bellevuecollege.edu/stupro/">StudentEnagement</a> website to find the correct words used in the game.</div>
 <div class:complete={visible} class="examples">
 	<div><strong>Examples</strong></div>
 	<div class="row">

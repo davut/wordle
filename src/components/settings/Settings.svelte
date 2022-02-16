@@ -66,6 +66,8 @@
 	</div>
 	<div class="footer">
 		<a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">Original Wordle</a>
+		<p>Forked from <a href="https://github.com/MikhaD/wordle" target="_blank">MikhaD</a>
+		</p>
 		<div>
 			<div>v1.1.1</div>
 			<div
