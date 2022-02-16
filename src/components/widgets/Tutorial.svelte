@@ -13,7 +13,8 @@
 	After each guess, the color of the tiles will change to show how close your guess was to the
 	word.
 </div>
-<div>This game was created by Bellevue College StudentEngagement, please check  <a target="_blank" href="https://www.bellevuecollege.edu/stupro/">StudentEnagement</a> website to find the correct words used in the game.</div>
+<div>This game was created by Bellevue College Student Engagement, and the words have been chosen to reflect the environment of Student Engagement and Bellevue College</div>
+<div>Please check <a target="_blank" href="https://www.bellevuecollege.edu/stupro/">StudentEnagement</a> website to find the correct words used in the game.</div>
 <div class:complete={visible} class="examples">
 	<div><strong>Examples</strong></div>
 	<div class="row">
