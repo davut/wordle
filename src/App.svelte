@@ -36,7 +36,8 @@
 		modeData.modes[modeVal].historical = true;
 	}
 	mode.subscribe((m) => {
-		localStorage.setItem("mode", `${m}`);
+		// localStorage.setItem("mode", `${m}`);
+		localStorage.setItem("mode", `Infinite`);
 		window.location.hash = GameMode[m];
 		stats = (JSON.parse(localStorage.getItem(`stats-${m}`)) as Stats) || createDefaultStats(m);
 		word = words.words[seededRandomInt(0, words.words.length, modeData.modes[m].seed)];

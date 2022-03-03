@@ -112,20 +112,29 @@ export const keys = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
 export function newSeed(mode: GameMode) {
   const today = new Date();
   switch (mode) {
-    case GameMode.daily:
-      return new Date(
-        today.getFullYear(),
-        today.getMonth(),
-        today.getDate()
-      ).valueOf();
-    case GameMode.hourly:
+    // case GameMode.daily:
+    //   return new Date(
+    //     today.getFullYear(),
+    //     today.getMonth(),
+    //     today.getDate()
+    //   ).valueOf();
+    // case GameMode.hourly:
+    //   return new Date(
+    //     today.getFullYear(),
+    //     today.getMonth(),
+    //     today.getDate(),
+    //     today.getHours()
+    //   ).valueOf();
+    case GameMode.infinite:
       return new Date(
         today.getFullYear(),
         today.getMonth(),
         today.getDate(),
-        today.getHours()
+        today.getHours(),
+        today.getMinutes(),
+        today.getSeconds()
       ).valueOf();
-    case GameMode.infinite:
+    default:
       return new Date(
         today.getFullYear(),
         today.getMonth(),
@@ -138,25 +147,25 @@ export function newSeed(mode: GameMode) {
 }
 
 export const modeData: ModeData = {
-  default: GameMode.daily,
+  default: GameMode.infinite,
   modes: [
-    {
-      name: "Daily",
-      unit: 86400000,
-      start: 1642370400000, // 17/01/2022
-      seed: newSeed(GameMode.daily),
-      historical: false,
-      streak: true,
-    },
-    {
-      name: "Hourly",
-      unit: 3600000,
-      start: 1642528800000, // 18/01/2022 8:00pm
-      seed: newSeed(GameMode.hourly),
-      historical: false,
-      icon: "m50,7h100v33c0,40 -35,40 -35,60c0,20 35,20 35,60v33h-100v-33c0,-40 35,-40 35,-60c0,-20 -35,-20 -35,-60z",
-      streak: true,
-    },
+    // {
+    //   name: "Daily",
+    //   unit: 86400000,
+    //   start: 1642370400000, // 17/01/2022
+    //   seed: newSeed(GameMode.daily),
+    //   historical: false,
+    //   streak: true,
+    // },
+    // {
+    //   name: "Hourly",
+    //   unit: 3600000,
+    //   start: 1642528800000, // 18/01/2022 8:00pm
+    //   seed: newSeed(GameMode.hourly),
+    //   historical: false,
+    //   icon: "m50,7h100v33c0,40 -35,40 -35,60c0,20 35,20 35,60v33h-100v-33c0,-40 35,-40 35,-60c0,-20 -35,-20 -35,-60z",
+    //   streak: true,
+    // },
     {
       name: "Infinite",
       unit: 1000,
